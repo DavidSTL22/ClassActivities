@@ -22,7 +22,7 @@ const keys = ["key", "1", "method", "favorites", "list"];
 obj.method = function() {
   return "the key is 'method' and it calls refers to a function";
 };
-
+obj.method();
 // Fill in your favorite movie, number and color below
 obj["favorites"] = {
   movie: "",
